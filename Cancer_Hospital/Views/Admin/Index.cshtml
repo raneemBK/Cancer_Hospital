@@ -1,0 +1,229 @@
+﻿@model IEnumerable<Cancer_Hospital.Models.GetAllData>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/HomeAll.css">
+
+<div>
+    <header id="header">
+        <h3 class="logo">Cancer hospital</h3>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Registration</button>
+                <div class="dropdown-content">
+                    <a href="../DoctorRegistration/Signup">Doctor</a>
+                    <a href="../PatientRegistration/Signup">Patient</a>
+                    <a href="../Home/HomeAll">Logout</a>
+                </div>
+            </div>
+            @*<button class="btn-login" onclick="window.location.href='../DoctorLogin/Login' ">Login</button>*@
+        </nav>
+    </header>
+</div>
+
+<h1>Index</h1>
+
+<p>
+Doctors
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.D_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_fname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_lname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_birthdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_educations)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_city)
+            </th>
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                @if (item.D_id > 0)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.D_id)
+                    </td>
+                }
+            <td>
+                @Html.DisplayFor(modelItem => item.D_fname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.D_lname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.D_email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.D_password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.D_phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.D_gender)
+            </td>
+                @if (item.D_birthdate != DateTime.MinValue)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.D_birthdate)
+                    </td>
+                }
+            <td>
+                @Html.DisplayFor(modelItem => item.D_educations)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.D_country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.D_city)
+            </td>
+
+                @* <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>
+
+
+<p>
+    Patients
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.P_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_fname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_lname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_birthdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_cancerType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.P_city)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.D_doctor)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @if (item.P_id > 0)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.P_id)
+                    </td>
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.P_fname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.P_lname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.P_email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.P_password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.P_phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.P_gender)
+                </td>
+               @if(item.P_birthdate != DateTime.MinValue)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.P_birthdate)
+                    </td>
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.P_cancerType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.P_country)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.P_city)
+                </td>
+               @if (item.D_doctor > 0)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.D_doctor)
+                    </td>
+                }
+
+                @* <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>*@
+            </tr>
+        }
+    </tbody>
+</table>

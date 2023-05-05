@@ -1,0 +1,120 @@
+﻿@model Cancer_Hospital.Models.PatientSignup
+
+@{
+    ViewData["Title"] = "Signup";
+}
+<link rel="stylesheet" href="~/css/Signup.css">
+<div class="cards">
+    <h1>Signup</h1>
+
+    <h4>Patients Signup</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Signup">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+               
+                    <div class="form-group">
+                        <label asp-for="P_id" class="control-label"></label>
+                        <input asp-for="P_id" class="form-control" />
+                        <span asp-validation-for="P_id" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Fname" class="control-label"></label>
+                        <input asp-for="Fname" class="form-control" />
+                        <span asp-validation-for="Fname" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Lname" class="control-label"></label>
+                        <input asp-for="Lname" class="form-control" />
+                        <span asp-validation-for="Lname" class="text-danger"></span>
+                    </div>
+                    
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" type="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email" class="control-label"></label>
+                    <input asp-for="Email" class="form-control" type="email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Phone" class="control-label"></label>
+                    <input asp-for="Phone" class="form-control" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    @*<label asp-for="Gender" class="control-label"></label>
+                    <input asp-for="Gender" class="form-control" />
+                    <span asp-validation-for="Gender" class="text-danger"></span>*@
+                    <label for="gen" asp-for="Gender" class="control-label">Gender</label>
+                    <select asp-for="Gender" class="form-control" id="gen" name="gender" required>
+                        <option>Select gender</option>
+                        <option>M</option>
+                        <option>F</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Country" class="control-label"></label>
+                    <input asp-for="Country" class="form-control" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="City" class="control-label"></label>
+                    <input asp-for="City" class="form-control" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    @*<label asp-for="Cancertype" class="control-label"></label>
+                    <input asp-for="Cancertype" class="form-control" />
+                    <span asp-validation-for="Cancertype" class="text-danger"></span>*@
+                    <label for="canc" asp-for="Cancertype" class="control-label">Cancer type</label>
+                    <select id="canc" name="cancertype" asp-for="Cancertype" class="form-control">
+                        <option>Select type of cancer</option>
+                        <option>brain tumors</option>
+                        <option>Head and neck cancers</option>
+                        <option>breast cancer</option>
+                        <option>Lung Cancer</option>
+                        <option>Liver Cancer</option>
+                        <option>biliary tract cancer</option>
+                        <option>Pancreas cancer</option>
+                        <option>Kidney cancer</option>
+                        <option>Colon Cancer</option>
+                        <option>Rectal cancer</option>
+                        <option>ovarian cancer</option>
+                        <option>Prostate cancer sarcoma</option>
+                        <option>melanoma cancer</option>
+                        <option>Non-melanoma skin cancer</option>
+                        <option>PThyroid cancer</option>
+                        <option>Neuroendocrine tumors</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="BirthDate" class="control-label"></label>
+                    <input asp-for="BirthDate" class="form-control" type="date" />
+                    <span asp-validation-for="BirthDate" class="text-danger"></span>
+                </div>
+                @*<div class="form-group">
+                <label asp-for="Photo" class="control-label"></label>
+                <input asp-for="Photo" class="form-control" type="image" />
+                <span asp-validation-for="Photo" class="text-danger"></span>
+                </div>*@
+                <div class="form-group">
+                    <label asp-for="D_id" class="control-label"></label>
+                    <input asp-for="D_id" class="form-control" />
+                    <span asp-validation-for="D_id" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Signup" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Cancer_Hospital.Models.ChatView>
+
+@{
+    ViewData["Title"] = "ChatDisplay";
+}
+
+<h1>ChatDisplay</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Did)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoctorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoctorText)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientText)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Did)
+                </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+*@
+<div class="cards">
+    <div class="card1">
+        @foreach(var item in Model)
+        {
+            <div>
+                @if (item.DoctorText == "null")
+                {
+                    <p>@Html.DisplayFor(modelItem => item.DoctorName)</p>
+                    <p>------doctor text----------</p>
+                    <p>@Html.DisplayFor(modelItem => item.DoctorText)</p>
+                }
+            </div>
+            <div class="card">---------------------------------</div>
+            
+            <div>
+                @if (item.PatientText != "null")
+                {
+                    <p>@Html.DisplayFor(modelItem => item.PatientName)</p>
+                    <p>--------patient text------</p>
+                    <p>@Html.DisplayFor(modelItem => item.PatientText)</p>
+                }
+                </div>
+           
+        }
+    </div>
+    <div class="card"></div>
+
+</div>
+
+<form asp-action="ChatSend" asp-controller="Patient">
+    <input name="patientID" type="hidden" value="@ViewBag.Pid">
+    <input name="doctorID" type="hidden" value="@ViewBag.Did">
+    
+    <input name="text" type="text" />
+    <button type="submit">Send</button>
+</form>

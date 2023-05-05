@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Cancer_Hospital.Models.PatientDataForDoctor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/HomeAll.css">
+
+<div>
+    <header id="header">
+        <h3 class="logo">Cancer hospital</h3>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            @foreach (var item in Model)
+            {
+                <a href=""> @Html.ActionLink("Contact", "Display", new { id = item.Id }) </a>
+            }
+            <div class="dropdown">
+                <button class="dropbtn"> 
+                    Dr. @ViewBag.FirstName
+                </button>
+                <div class="dropdown-content">
+                    <a href="/Home/HomeAll">Logout</a>
+                </div>
+            </div>
+            @*<button class="btn-login" onclick="window.location.href='../DoctorLogin/Login' ">Login</button>*@
+        </nav>
+    </header>
+</div>
+
+
+<div class="cards">
+    <div class="card">
+        <div>
+            <img src="/Images/Doctor-icon.jpg" width="70px" height="70px" style="margin-left:40px" />
+            <p>Doctors Services</p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="/Images/medical-icon.png" width="70px" height="70px" style="margin-left:40px" />
+            <p>Medical Services</p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="/Images/behavioral-icon.jpg" width="70px" height="70px" style="margin-left:40px" />
+            <p>Behavioral Services</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Lname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CancerType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CancerType)
+            </td>
+            <td>
+                    @Html.ActionLink("Display status", "Display", new { id = item.Id }) |
+                @Html.ActionLink("Add status of patient", "Update", new { Id = item.Id }) |
+                    @Html.ActionLink("Edit the status", "Update", new { Id = item.Id }) |
+                 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

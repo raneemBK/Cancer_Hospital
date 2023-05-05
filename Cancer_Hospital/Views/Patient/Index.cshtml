@@ -1,0 +1,139 @@
+﻿@model IEnumerable<Cancer_Hospital.Models.PatientData>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="~/css/HomeAll.css">
+<header id="header">
+    <h3 class="logo">Cancer hospital</h3>
+    <nav class="navigation">
+        <a href="#">Home</a>
+        @foreach(var item in Model)
+        {
+            <a href=""> @Html.ActionLink("Contact", "ChatDisplay", new { PId = item.Id, DId= item.DoctorId }) </a>
+        }
+        <div class="dropdown">
+            <button class="dropbtn">
+                @foreach (var item in Model)
+                {
+                    <a href="#">
+                        @Html.DisplayFor(modelItem => item.Fname)
+                    </a>
+                }
+            </button>
+            <div class="dropdown-content">
+                <a href="/Home/HomeAll">Logout</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<img src="/Images/homePatient.jpg" width="1350px" height="400px" />
+<div class="cards">
+    <div class="card">
+        <div>
+            <img src="/Images/Doctor-icon.jpg" width="70px" height="70px" style="margin-left:40px" />
+            <p>Doctors Services</p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="/Images/medical-icon.png" width="70px" height="70px" style="margin-left:40px" />
+            <p>Medical Services</p>
+        </div>
+    </div>
+    <div class="card">
+        <div>
+            <img src="/Images/behavioral-icon.jpg" width="70px" height="70px" style="margin-left:40px" />
+            <p>Behavioral Services</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Lname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CancerType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discrption)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CancerStage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TreatmentPlan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LAboratoryResults)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CancerType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Discrption)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CancerStage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TreatmentPlan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LAboratoryResults)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DoctorId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DoctorName)
+                </td>
+            @*<td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>

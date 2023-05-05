@@ -1,0 +1,45 @@
+﻿@model Cancer_Hospital.Models.UpdateDataPatient
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update</h1>
+
+<h4>UpdateDataPatient</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Discrption" class="control-label"></label>
+                <input asp-for="Discrption" class="form-control" />
+                <span asp-validation-for="Discrption" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CancerStage" class="control-label"></label>
+                <input asp-for="CancerStage" class="form-control" />
+                <span asp-validation-for="CancerStage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TreatmentPlan" class="control-label"></label>
+                <input asp-for="TreatmentPlan" class="form-control" />
+                <span asp-validation-for="TreatmentPlan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LAboratoryResults" class="control-label"></label>
+                <input asp-for="LAboratoryResults" class="form-control" />
+                <span asp-validation-for="LAboratoryResults" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

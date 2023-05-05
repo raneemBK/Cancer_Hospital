@@ -1,0 +1,22 @@
+﻿h2 {
+    color: blue;
+    font-style: italic;
+    margin-left: 700px;
+    margin-top: 300px;
+}
+
+button {
+    color: wheat;
+    background-color: cornflowerblue;
+    margin-left: 1000px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+body {
+    background-image: url('..//Images/cancer_intro.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+}
