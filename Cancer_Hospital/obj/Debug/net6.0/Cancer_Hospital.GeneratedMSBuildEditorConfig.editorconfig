@@ -9,85 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Cancer_Hospital
 build_property.RootNamespace = Cancer_Hospital
-build_property.ProjectDir = C:\Users\DELL\source\repos\Cancer_Hospital\Cancer_Hospital\
+build_property.ProjectDir = C:\Users\DELL\OneDrive\سطح المكتب\Cancer_Hospital\Cancer_Hospital\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\DELL\source\repos\Cancer_Hospital\Cancer_Hospital
+build_property.MSBuildProjectDirectory = C:\Users\DELL\OneDrive\سطح المكتب\Cancer_Hospital\Cancer_Hospital
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Admin/Index.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Admin/Login.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Admin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/DoctorLogin/Login.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/DoctorLogin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/DoctorRegistration/Signup.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/DoctorRegistration/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yUmVnaXN0cmF0aW9uXFNpZ251cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Doctor/ChatDisplay.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Doctor/ChatDisplay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXENoYXREaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Doctor/Display.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Doctor/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERpc3BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Doctor/Index.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Doctor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Doctor/Update.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Doctor/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Home/HomeAll.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Home/HomeAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lQWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Home/Index.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/PatientLogin/Login.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/PatientLogin/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudExvZ2luXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/PatientRegistration/Signup.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/PatientRegistration/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFJlZ2lzdHJhdGlvblxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Patient/ChatDisplay.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Patient/ChatDisplay.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxDaGF0RGlzcGxheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Patient/Index.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Patient/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Shared/Error.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/_ViewImports.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/_ViewStart.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DELL/source/repos/Cancer_Hospital/Cancer_Hospital/Views/Shared/_Layout.cshtml]
+[C:/Users/DELL/OneDrive/سطح المكتب/Cancer_Hospital/Cancer_Hospital/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-b6fkummpci

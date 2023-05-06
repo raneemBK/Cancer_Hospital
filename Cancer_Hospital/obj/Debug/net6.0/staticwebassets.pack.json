@@ -1,355 +1,351 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Cancer_Hospital.bundle.scp.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Cancer_Hospital.bundle.scp.css",
       "PackagePath": "staticwebassets\\Cancer_Hospital.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\Doctor-icon.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\Doctor-icon.jpg",
       "PackagePath": "staticwebassets\\Images\\Doctor-icon.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\Kidney_cancer.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\Kidney_cancer.jpg",
       "PackagePath": "staticwebassets\\Images\\Kidney_cancer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\Pancreas_cancer.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\Pancreas_cancer.jpg",
       "PackagePath": "staticwebassets\\Images\\Pancreas_cancer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\Thyroid_cancer.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\Thyroid_cancer.jpg",
       "PackagePath": "staticwebassets\\Images\\Thyroid_cancer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\background-footer.png",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\background-footer.png",
       "PackagePath": "staticwebassets\\Images\\background-footer.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\background-header.png",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\background-header.png",
       "PackagePath": "staticwebassets\\Images\\background-header.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\behavioral-icon.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\behavioral-icon.jpg",
       "PackagePath": "staticwebassets\\Images\\behavioral-icon.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\biliary_tract_cancer.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\biliary_tract_cancer.jpg",
       "PackagePath": "staticwebassets\\Images\\biliary_tract_cancer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\brain_cancer.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\brain_cancer.jpg",
       "PackagePath": "staticwebassets\\Images\\brain_cancer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\cancer_intro.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\cancer_intro.jpg",
       "PackagePath": "staticwebassets\\Images\\cancer_intro.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\colon_cancer.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\colon_cancer.jpg",
       "PackagePath": "staticwebassets\\Images\\colon_cancer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\colon_cancer.webp",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\colon_cancer.webp",
       "PackagePath": "staticwebassets\\Images\\colon_cancer.webp"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\homePatient.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\homePatient.jpg",
       "PackagePath": "staticwebassets\\Images\\homePatient.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\labcoat.jpg.crdownload",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\labcoat.jpg.crdownload",
       "PackagePath": "staticwebassets\\Images\\labcoat.jpg.crdownload"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\labcoatlogin.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\labcoatlogin.jpg",
       "PackagePath": "staticwebassets\\Images\\labcoatlogin.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\lapcoat.avif",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\lapcoat.avif",
       "PackagePath": "staticwebassets\\Images\\lapcoat.avif"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\lapcoat.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\lapcoat.jpg",
       "PackagePath": "staticwebassets\\Images\\lapcoat.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\liver_cancer.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\liver_cancer.jpg",
       "PackagePath": "staticwebassets\\Images\\liver_cancer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\login.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\login.jpg",
       "PackagePath": "staticwebassets\\Images\\login.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\lung_cancer.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\lung_cancer.jpg",
       "PackagePath": "staticwebassets\\Images\\lung_cancer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\medical-icon.png",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\medical-icon.png",
       "PackagePath": "staticwebassets\\Images\\medical-icon.png"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\melanoma_cancer.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\melanoma_cancer.jpg",
       "PackagePath": "staticwebassets\\Images\\melanoma_cancer.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\mhmd-icon.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\mhmd-icon.jpg",
       "PackagePath": "staticwebassets\\Images\\mhmd-icon.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\renad-icon.jpg",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\renad-icon.jpg",
       "PackagePath": "staticwebassets\\Images\\renad-icon.jpg"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\HomeAll.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\HomeAll.css",
       "PackagePath": "staticwebassets\\css\\HomeAll.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\HomePatient.css",
-      "PackagePath": "staticwebassets\\css\\HomePatient.css"
-    },
-    {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\Index.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\Login.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\Signup.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\Signup.css",
       "PackagePath": "staticwebassets\\css\\Signup.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

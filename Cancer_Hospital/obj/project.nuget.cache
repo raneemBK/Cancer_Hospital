@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aXitxY6TMqxEMJ3r3Hjj0miGnDyVns+Nvr4bZMOTD8B0hztfnoBP2ZAgvUgHx0BmQD7UV3Mp3RhjhZQlvVgQKg==",
+  "dgSpecHash": "LHiuHj1WNJTn/kNmNu+sTLXinuHsrP4yCRKc7S0XYm4S8LPFnUIO2jOoImCifT2x0lJpyDcwHgtw8daA6r4Lxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\Cancer_Hospital\\Cancer_Hospital\\Cancer_Hospital.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\Cancer_Hospital.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

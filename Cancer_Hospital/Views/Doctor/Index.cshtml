@@ -10,10 +10,6 @@
         <h3 class="logo">Cancer hospital</h3>
         <nav class="navigation">
             <a href="#">Home</a>
-            @foreach (var item in Model)
-            {
-                <a href=""> @Html.ActionLink("Contact", "Display", new { id = item.Id }) </a>
-            }
             <div class="dropdown">
                 <button class="dropbtn"> 
                     Dr. @ViewBag.FirstName
@@ -88,6 +84,7 @@
                     @Html.ActionLink("Display status", "Display", new { id = item.Id }) |
                 @Html.ActionLink("Add status of patient", "Update", new { Id = item.Id }) |
                     @Html.ActionLink("Edit the status", "Update", new { Id = item.Id }) |
+                    @Html.ActionLink("Contact", "ChatDisplay", new { PId = item.Id, DId= item.DoctorID})
                  
             </td>
         </tr>
