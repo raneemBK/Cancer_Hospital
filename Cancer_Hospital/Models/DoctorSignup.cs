@@ -11,7 +11,7 @@
         public string Gender { get; set; }
         public DateTime Birthdate { get; set; }
         public string Education { get; set; }   
-        public string Specialization { get; set; }
+       /* public string Specialization { get; set; }*/
         public string Country { get; set; }
         public string City { get; set; }
     }

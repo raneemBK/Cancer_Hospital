@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\Images\\brain_cancer.jpg"
     },
     {
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\cancer_hospital.jpg",
+      "PackagePath": "staticwebassets\\Images\\cancer_hospital.jpg"
+    },
+    {
       "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\cancer_intro.jpg",
       "PackagePath": "staticwebassets\\Images\\cancer_intro.jpg"
     },
@@ -101,8 +105,28 @@
       "PackagePath": "staticwebassets\\Images\\renad-icon.jpg"
     },
     {
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\servicee.jpg",
+      "PackagePath": "staticwebassets\\Images\\servicee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\services.jpeg",
+      "PackagePath": "staticwebassets\\Images\\services.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\Images\\userIcon.png",
+      "PackagePath": "staticwebassets\\Images\\userIcon.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\ChatDisplay.css",
+      "PackagePath": "staticwebassets\\css\\ChatDisplay.css"
+    },
+    {
       "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\HomeAll.css",
       "PackagePath": "staticwebassets\\css\\HomeAll.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\HomePatient.css",
+      "PackagePath": "staticwebassets\\css\\HomePatient.css"
     },
     {
       "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\Index.css",

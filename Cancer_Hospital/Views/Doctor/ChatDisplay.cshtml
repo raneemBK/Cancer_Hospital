@@ -3,77 +3,74 @@
 @{
     ViewData["Title"] = "ChatDisplay";
 }
+<link rel="stylesheet" href="~/css/ChatDisplay.css">
+<script src="https://kit.fontawesome.com/21a93b28c4.js" crossorigin="anonymous"></script>
+<div>
+    <header id="header">
+        <h3 class="logo">Cancer hospital</h3>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Dr. @ViewBag.FirstName
+                </button>
+                <div class="dropdown-content">
+                    <a href="/Home/HomeAll">Logout</a>
+                </div>
+            </div>
+            @*<button class="btn-login" onclick="window.location.href='../DoctorLogin/Login' ">Login</button>*@
+        </nav>
+    </header>
+</div>
 
-<h1>ChatDisplay</h1>
+<main>
+    <div class="cards">
+        <div class="card1">
+            @foreach (var item in Model)
+            {
+                @if (item.PatientText != "test")
+                {
+                    <div class="receiveText">
+                        <div class="name">
+                            <img src="..//Images/userIcon.png">
+                            <p>@Html.DisplayFor(modelItem => item.PatientName)</p>
+                        </div>
+                        <div class="text">
+                            <p>@Html.DisplayFor(modelItem => item.PatientText)</p>
+                        </div>
+                    </div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Pid)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Did)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DoctorName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DoctorText)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientText)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Date)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Pid)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Did)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DoctorName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DoctorText)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientText)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Date)
-            </td>
-            @*<td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>*@
-        </tr>
-}
-    </tbody>
-</table>
+                }
 
-<form asp-action="ChatSend" asp-controller="Doctor">
-    <input name="patientID" type="hidden" value="@ViewBag.Pid">
-    <input name="doctorID" type="hidden" value="@ViewBag.Did">
+                <div class="clear">.</div>
 
-    <input name="doctortext" type="text" />
-    <button type="submit">Send</button>
-</form>
+                @if (item.DoctorText != "test")
+                {
+                    <div class="senderText">
+                        <div class="name">
+                            <img src="..//Images/userIcon.png">
+                            <p>@Html.DisplayFor(modelItem => item.DoctorName)</p>
+                        </div>
+                        <div class="text">
+                            <p>@Html.DisplayFor(modelItem => item.DoctorText)</p>
+                        </div>
+
+
+                    </div>
+
+                }
+                <div class="clear">.</div>
+
+            }
+        </div>
+
+    </div>
+
+    <form class="formm" asp-action="ChatSend" asp-controller="Doctor">
+        <input name="patientID" type="hidden" value="@ViewBag.Pid">
+        <input name="doctorID" type="hidden" value="@ViewBag.Did">
+
+        <input name="doctortext" type="text" class="text" placeholder="your comment..."/>
+        <button type="submit" class="send">Send</button>
+    </form>
+</main>

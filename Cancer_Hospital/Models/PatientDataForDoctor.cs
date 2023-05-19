@@ -10,8 +10,12 @@ namespace Cancer_Hospital.Models
         public string CancerType { get; set; }
         public string FirstName { get; set; }
         public int DoctorID { get; set; }
-       /* public int DoctorId { get; set; } // Foreign key property
-        public Doctor Doctor { get; set; }*/ // Navigation property
+        public string Discrption { get; set; }
+        public string CancerStage { get; set; }
+        public string TreatmentPlan { get; set; }
+        public string LAboratoryResults { get; set; }
+        /* public int DoctorId { get; set; } // Foreign key property
+         public Doctor Doctor { get; set; }*/ // Navigation property
         /* public int DoctorId { get; set; }
          public Doctor Doctor { get; set; }*/
     }

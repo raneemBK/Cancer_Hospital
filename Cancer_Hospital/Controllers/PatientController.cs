@@ -47,10 +47,10 @@ namespace Cancer_Hospital.Controllers
                 return View(patients);
             }
         }
-        public ActionResult ChatDisplay(int PId , int DId , ChatView chat)
+        public ActionResult ChatDisplay(int PId , int DId, string Fname , ChatView chat)
         {
             string connectionString = _configuration.GetConnectionString("DefaultConnection");
-            string query = "select chat.pat_id,chat.doc_id, Patient.p_fname,Doctor.d_fname,Chat.doctor_text,Chat.patient_text,chat.chat_date from [Chat] join [Doctor] on chat.doc_id = doctor.d_id join [Patient] on chat.pat_id = patient.p_id where chat.doc_id = '"+DId+"' and chat.pat_id= '"+PId+"'";
+            string query = "select chat.pat_id,chat.doc_id, Patient.p_fname,Doctor.d_fname,Chat.doctor_text,Chat.patient_text,chat.chat_date from [Chat] join [Doctor] on chat.doc_id = doctor.d_id join [Patient] on chat.pat_id = patient.p_id where chat.doc_id = '"+DId+"' and chat.pat_id= '"+PId+ "' ORDER BY chat.IDColumn";
             SqlConnection connection = new SqlConnection(connectionString);
             connection.Open();
             SqlCommand command = new SqlCommand(query, connection);
@@ -61,33 +61,17 @@ namespace Cancer_Hospital.Controllers
                 ChatView ch = new ChatView();
                 ch.DoctorName = reader["d_fname"].ToString();
                 ch.PatientName = reader["p_fname"].ToString();
-                //ch.PatientText = reader["patient_text"].ToString();
-               // ch.DoctorText = reader["doctor_text"].ToString();
+                ch.PatientText = reader["patient_text"].ToString();
+                ch.DoctorText = reader["doctor_text"].ToString();
                 ch.Pid = (int)reader["pat_id"];
                 ch.Did = (int)reader["doc_id"];
               //  ch.Date = (DateTime)reader["chat_date"]; 
-              if (reader["doctor_text"] != null)
-                {
-                    ch.DoctorText = reader["doctor_text"].ToString();
-                }
-                else
-                {
-                    ch.DoctorText = "null";
-                }
-                if (reader["patient_text"] != null)
-                {
-                    ch.PatientText = reader["patient_text"].ToString();
-                }
-                else
-                {
-                    ch.PatientText = "null";
-                }
                 chats.Add(ch);
             }
             reader.Close ();
             ViewBag.Pid = PId;
             ViewBag.Did = DId;
-
+            ViewBag.FirstName = Fname;
             return View(chats);
         }
         [HttpGet]
@@ -98,8 +82,9 @@ namespace Cancer_Hospital.Controllers
         [HttpPost]
         public ActionResult ChatSend( int patientID , int doctorID, string text)
         {
+            string test = "test";
             string connectionString = _configuration.GetConnectionString("DefaultConnection");
-            string query = "insert into [Chat] (pat_id,doc_id,patient_text,chat_date) values((select p_id from [Patient] where p_id = '"+patientID+"'),(select d_id from [Doctor] where d_id = '"+doctorID+"'),'"+text+"',CONVERT(datetime, '" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "', 120))";
+            string query = "insert into [Chat] (pat_id,doc_id,patient_text,doctor_text,chat_date) values((select p_id from [Patient] where p_id = '" + patientID+"'),(select d_id from [Doctor] where d_id = '"+doctorID+"'),'"+text+"','"+test+"',CONVERT(datetime, '" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "', 120))";
             SqlConnection connection = new SqlConnection( connectionString);
             connection.Open();
             SqlCommand command = new SqlCommand(query, connection);

@@ -24,7 +24,7 @@ namespace Cancer_Hospital.Controllers
         public IActionResult Signup(DoctorSignup model)
         {
             string connectionString = _configuration.GetConnectionString("DefaultConnection");
-            string query = "Insert into [Doctor] (d_id,d_fname,d_lname,d_email,d_password,d_phone,d_gender,d_birthdate,d_educations,d_specialization,d_country,d_city) values('"+model.d_id+"','"+model.Fname+"','"+model.Lname+"','"+model.Email+"','"+model.Password+"','"+model.Phone+"','"+model.Gender+"','"+model.Birthdate+"','"+model.Education+"','"+model.Specialization+"','"+model.Country+"','"+model.City+"') ";
+            string query = "Insert into [Doctor] (d_id,d_fname,d_lname,d_email,d_password,d_phone,d_gender,d_birthdate,d_educations,d_country,d_city) values('"+model.d_id+"','"+model.Fname+"','"+model.Lname+"','"+model.Email+"','"+model.Password+"','"+model.Phone+"','"+model.Gender+"','"+model.Birthdate+"','"+model.Education+"','"+model.Country+"','"+model.City+"') ";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

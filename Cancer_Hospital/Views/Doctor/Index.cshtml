@@ -47,7 +47,7 @@
 </div>
 
 
-@*<table class="table">
+<table class="table">
     <thead>
         <tr>
             <th>
@@ -61,6 +61,18 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.CancerType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discrption)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CancerStage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TreatmentPlan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LAboratoryResults)
             </th>
             <th></th>
         </tr>
@@ -80,14 +92,26 @@
             <td>
                 @Html.DisplayFor(modelItem => item.CancerType)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discrption)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CancerStage)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TreatmentPlan)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LAboratoryResults)
+                </td>
             <td>
                     @Html.ActionLink("Display status", "Display", new { id = item.Id }) |
                 @Html.ActionLink("Add status of patient", "Update", new { Id = item.Id }) |
                     @Html.ActionLink("Edit the status", "Update", new { Id = item.Id }) |
-                    @Html.ActionLink("Contact", "ChatDisplay", new { PId = item.Id, DId= item.DoctorID})
+                    @Html.ActionLink("Contact", "ChatDisplay", new { PId = item.Id, DId= item.DoctorID, Fname =item.FirstName})
                  
             </td>
         </tr>
 }
     </tbody>
-</table>*@
+</table>

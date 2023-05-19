@@ -5,14 +5,14 @@
     ViewData["Title"] = "Index";
 }
 
-<link rel="stylesheet" href="~/css/HomeAll.css">
+<link rel="stylesheet" href="~/css/HomePatient.css">
 <header id="header">
     <h3 class="logo">Cancer hospital</h3>
     <nav class="navigation">
         <a href="#">Home</a>
         @foreach(var item in Model)
         {
-            <a href=""> @Html.ActionLink("Contact", "ChatDisplay", new { PId = item.Id, DId= item.DoctorId }) </a>
+            <a href=""> @Html.ActionLink("Contact", "ChatDisplay", new { PId = item.Id, DId= item.DoctorId , Fname= item.Fname}) </a>
         }
         <div class="dropdown">
             <button class="dropbtn">

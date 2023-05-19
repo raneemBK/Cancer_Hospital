@@ -3,12 +3,25 @@
 @{
     ViewData["Title"] = "ChatDisplay";
 }
-
-<h1>ChatDisplay</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<link rel="stylesheet" href="~/css/ChatDisplay.css">
+<script src="https://kit.fontawesome.com/21a93b28c4.js" crossorigin="anonymous"></script>
+<div>
+    <header id="header">
+        <h3 class="logo">Cancer hospital</h3>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                   @ViewBag.FirstName
+                </button>
+                <div class="dropdown-content">
+                    <a href="/Home/HomeAll">Logout</a>
+                </div>
+            </div>
+            @*<button class="btn-login" onclick="window.location.href='../DoctorLogin/Login' ">Login</button>*@
+        </nav>
+    </header>
+</div>
 @*<table class="table">
     <thead>
         <tr>
@@ -16,22 +29,7 @@
                 @Html.DisplayNameFor(model => model.DoctorName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.PatientName)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.DoctorText)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PatientText)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Date)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pid)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Did)
             </th>
             <th></th>
         </tr>
@@ -43,62 +41,100 @@
                 @Html.DisplayFor(modelItem => item.DoctorName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PatientName)
+                    @if (item.DoctorText != "test")
+                    {
+                        @Html.DisplayFor(modelItem => item.DoctorText)
+                    }
+                
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DoctorText)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PatientText)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Date)
-            </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Pid)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Did)
-                </td>
+            
         </tr>
 }
     </tbody>
 </table>
-
-*@
-<div class="cards">
-    <div class="card1">
-        @foreach(var item in Model)
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientText)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
         {
-            <div>
-                @if (item.DoctorText == "null")
-                {
-                    <p>@Html.DisplayFor(modelItem => item.DoctorName)</p>
-                    <p>------doctor text----------</p>
-                    <p>@Html.DisplayFor(modelItem => item.DoctorText)</p>
-                }
-            </div>
-            <div class="card">---------------------------------</div>
-            
-            <div>
-                @if (item.PatientText != "null")
-                {
-                    <p>@Html.DisplayFor(modelItem => item.PatientName)</p>
-                    <p>--------patient text------</p>
-                    <p>@Html.DisplayFor(modelItem => item.PatientText)</p>
-                }
-                </div>
-           
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientName)
+                </td>
+                <td>
+                    @if (item.PatientText != "test")
+                    {
+                        @Html.DisplayFor(modelItem => item.PatientText)
+                    }
+
+                </td>
+
+            </tr>
         }
+    </tbody>
+</table>*@
+
+<main>
+    <div class="cards">
+        <div class="card1">
+            @foreach (var item in Model)
+            {
+                @if (item.DoctorText != "test")
+                {
+                    <div class="receiveText">
+                        <div class="name">
+                            <div>
+                                <img src="..//Images/userIcon.png">
+                                <p>@Html.DisplayFor(modelItem => item.DoctorName)</p>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <p>@Html.DisplayFor(modelItem => item.DoctorText)</p>
+                        </div>
+
+
+                    </div>
+
+                }
+                <div class="clear">.</div>
+
+                @if (item.PatientText != "test")
+                {
+                    <div class="senderText">
+                        <div class="name">
+                            <img src="..//Images/userIcon.png">
+                            <p>@Html.DisplayFor(modelItem => item.PatientName)</p>
+                        </div>
+                        <div class="text">
+                            <p>@Html.DisplayFor(modelItem => item.PatientText)</p>
+                        </div>
+                    </div>
+
+                }
+                <div class="clear">.</div>
+
+            }
+        </div>
+
     </div>
-    <div class="card"></div>
 
-</div>
 
-<form asp-action="ChatSend" asp-controller="Patient">
-    <input name="patientID" type="hidden" value="@ViewBag.Pid">
-    <input name="doctorID" type="hidden" value="@ViewBag.Did">
-    
-    <input name="text" type="text" />
-    <button type="submit">Send</button>
-</form>
+    <form class="formm" asp-action="ChatSend" asp-controller="Patient">
+        <input name="patientID" type="hidden" value="@ViewBag.Pid">
+        <input name="doctorID" type="hidden" value="@ViewBag.Did">
+
+        <input name="text" type="text" class="text" placeholder="your comment..." />
+        <button type="submit" class="send">Send</button>
+    </form>
+
+</main>
