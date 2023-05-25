@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Index";
 }
-<link rel="stylesheet" href="~/css/HomeAll.css">
+<link rel="stylesheet" href="~/css/HomeDoctor.css">
 
 <div>
     <header id="header">
@@ -47,7 +47,7 @@
 </div>
 
 
-<table class="table">
+@*<table class="table">
     <thead>
         <tr>
             <th>
@@ -114,4 +114,57 @@
         </tr>
 }
     </tbody>
-</table>
+</table>*@
+
+<div class="marginTop">.</div>
+    @foreach (var item in Model)
+    {
+        <div class="personl-card">
+            <div class="information">
+                <div class="image">
+                    @*<img src="..//Images/userIcon.png">*@
+                <img src="~/images/usericon.png" />
+                </div>
+                <div class="main-info">
+                    <h1 class="name">@Html.DisplayFor(modelItem => item.Fname) @Html.DisplayFor(modelItem => item.Lname)</h1>
+                <h2 class="cancer-type">Description</h2>
+                    <p class="description">
+                    @Html.DisplayFor(modelItem => item.Discrption)
+                @*Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur recusandae
+                nesciunt libero hic optio sit omnis deserunt nesciunt libero hic optio sit omnis deseruntnesciunt
+                libero hic optio sit omnis deserunt*@
+                </p>
+                </div>
+                <div class="info">
+                <p class="id">Patient Id: @Html.DisplayFor(modelItem => item.Id) </p>
+                <p class="fname">First Name: @Html.DisplayFor(modelItem => item.Fname) </p>
+                <p class="lname">Last Name: @Html.DisplayFor(modelItem => item.Lname) </p>
+                <p class="cancer-type">Cancer Type: @Html.DisplayFor(modelItem => item.CancerType) </p>
+                <p class="docid">Docter Id: @Html.DisplayFor(modelItem => item.DoctorID)</p>
+                <p class="cancer-stage">Cancer stage: @Html.DisplayFor(modelItem => item.CancerStage)</p>
+                <p class="treatmentplan">Treatment Plan: @Html.DisplayFor(modelItem => item.TreatmentPlan)</p>
+                <p class="labroatory-res">labroatory result: @Html.DisplayFor(modelItem => item.LAboratoryResults)</p>
+                </div>
+            </div>
+            <hr>
+            <div class="card-footer">
+
+                <div class="link">
+                <img src="~/images/add.png" alt="">
+                <a href="#">@Html.ActionLink("Add", "Update", new { Id = item.Id ,Did = item.DoctorID , Fname = item.FirstName })</a>
+                </div>
+
+                <div class="link">
+                <img src="~/images/edit.png" alt="">
+                    <a href="#">@Html.ActionLink("Edit", "Update", new { Id = item.Id , Did = item.DoctorID , Fname = item.FirstName})</a>
+                </div>
+
+                <div class="link">
+                <img src="~/images/contact-mail.png" alt="">
+                    <a href="#">@Html.ActionLink("Contact", "ChatDisplay", new { PId = item.Id, DId= item.DoctorID, Fname =item.FirstName})</a>
+                </div>
+
+            </div>
+        </div>
+    }
+

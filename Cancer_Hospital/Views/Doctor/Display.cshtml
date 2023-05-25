@@ -1,0 +1,86 @@
+﻿@model IEnumerable<Cancer_Hospital.Models.PatientData>
+
+@{
+    ViewData["Title"] = "Display";
+}
+
+<h1>Display</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Lname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CancerType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DoctorId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discrption)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CancerStage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TreatmentPlan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LAboratoryResults)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CancerType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoctorId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Discrption)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CancerStage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TreatmentPlan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LAboratoryResults)
+            </td>
+            @*<td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>*@
+            <td>
+                @Html.ActionLink("Contact", "ChatDisplay", new { PId = item.Id, DId= item.DoctorId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

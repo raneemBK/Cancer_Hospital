@@ -97,7 +97,7 @@ namespace Cancer_Hospital.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Update(int Id , UpdateDataPatient data)
+        public ActionResult Update(int Id, int Did , string Fname, UpdateDataPatient data)
         {
             string connectionString = _configuration.GetConnectionString("DefaultConnection");
             string query = "update [Patient] set s_discrption= '" + data.Discrption + "', cancer_stage= '" + data.CancerStage + "', treatment_plan='" + data.TreatmentPlan + "', laboratory_results='" + data.LAboratoryResults + "' where p_id= '" + Id + "' ";
@@ -106,7 +106,7 @@ namespace Cancer_Hospital.Controllers
             SqlCommand command = new SqlCommand(query, connection);
             command.ExecuteNonQuery();
             connection.Close();
-            return RedirectToAction("Display", "Doctor", new { id = Id });
+            return RedirectToAction("Index", "Doctor", new { id = Did , fname = Fname });
         }
         public ActionResult ChatDisplay(int PId, int DId, string Fname, ChatView chat)
         {
