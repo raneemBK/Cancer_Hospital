@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0/1l02AHaX4Wxg6zAcX0FClWKFHVu+KPwN7nqjQnZGk=",
+  "Hash": "Onlu+hUwPxzCrZq309HrE/LFuI/g1b2lCGtFi12oPO0=",
   "Source": "Cancer_Hospital",
   "BasePath": "_content/Cancer_Hospital",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Home.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\HomeAll.css",
+      "SourceId": "Cancer_Hospital",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\",
+      "BasePath": "_content/Cancer_Hospital",
+      "RelativePath": "css/HomeAll.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\HomeAll.css"
     },
     {
       "Identity": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\HomeDoctor.css",

@@ -137,6 +137,10 @@
       "PackagePath": "staticwebassets\\css\\Home.css"
     },
     {
+      "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\HomeAll.css",
+      "PackagePath": "staticwebassets\\css\\HomeAll.css"
+    },
+    {
       "Id": "C:\\Users\\DELL\\OneDrive\\سطح المكتب\\Cancer_Hospital\\Cancer_Hospital\\wwwroot\\css\\HomeDoctor.css",
       "PackagePath": "staticwebassets\\css\\HomeDoctor.css"
     },
