@@ -12,7 +12,7 @@ namespace Cancer_Hospital.Controllers
         public IActionResult Index()
         {
             string connectionString = _configuration.GetConnectionString("DefaultConnection");
-            string query = "select d_id ,d_fname,d_lname,d_email ,d_password,d_phone,d_gender,d_birthdate ,d_country,d_city,p_id,p_fname,p_lname ,p_password,p_email,p_gender ,p_birthdate ,p_phone ,p_cancerType ,p_country ,p_city,d_doctor from [Doctor] full join [Patient] on d_id=p_id";
+            string query = "select d_id ,d_fname,d_lname,d_email ,d_password,d_phone,d_gender,d_birthdate,d_educations ,d_country,d_city,p_id,p_fname,p_lname ,p_password,p_email,p_gender ,p_birthdate ,p_phone ,p_cancerType ,p_country ,p_city,d_doctor from [Doctor] full join [Patient] on d_id=p_id";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
@@ -30,8 +30,7 @@ namespace Cancer_Hospital.Controllers
                     dataItem.D_password = reader["d_password"].ToString();
                     dataItem.D_phone = reader["d_phone"].ToString();
                     dataItem.D_gender = reader["d_gender"].ToString();
-                    
-               
+                    dataItem.D_educations = reader["d_educations"].ToString();
                     dataItem.D_country = reader["d_country"].ToString();
                     dataItem.D_city = reader["d_city"].ToString();
 
