@@ -5,7 +5,11 @@
     ViewData["Title"] = "Index";
 }
 
-<link rel="stylesheet" href="~/css/HomePatient.css">
+<head>
+    <link rel="stylesheet" href="~/css/HomePatient.css">
+</head>
+
+
 <header id="header">
     <h3 class="logo">Cancer hospital</h3>
     <nav class="navigation">
@@ -54,11 +58,6 @@
 
 
 
-
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -92,7 +91,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.DoctorName)
             </th>
-            <th></th>
         </tr>
     </thead>
     <tbody>
